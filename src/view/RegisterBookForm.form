@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.RegisterBookForm">
+  <grid id="27dc6" binding="registerBookPanel" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="417"/>
+    </constraints>
+    <properties>
+      <background color="-15973013"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="a674b">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="1b366" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="view/book-stack.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="68b1b" class="javax.swing.JTextField" binding="tfTitle">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7405579"/>
+        </properties>
+      </component>
+      <component id="2af6d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Schoolbook" size="14" style="0"/>
+          <foreground color="-66049"/>
+          <text value="Title"/>
+        </properties>
+      </component>
+      <component id="a1e4a" class="javax.swing.JTextField" binding="tfAuthor">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7405579"/>
+        </properties>
+      </component>
+      <component id="19eb4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Schoolbook" size="14" style="0"/>
+          <foreground color="-66049"/>
+          <text value="Author"/>
+        </properties>
+      </component>
+      <component id="80b6d" class="javax.swing.JComboBox" binding="cmbGenre">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7405579"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="6aa00" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Schoolbook" size="14" style="0"/>
+          <foreground color="-66049"/>
+          <text value="Genre"/>
+        </properties>
+      </component>
+      <component id="553a4" class="javax.swing.JButton" binding="btnRegisterBook">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7405579"/>
+          <font name="Century Schoolbook" size="14" style="0"/>
+          <foreground color="-15973013"/>
+          <text value="Register Book"/>
+        </properties>
+      </component>
+      <component id="66c33" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7405579"/>
+          <font name="Century Schoolbook" size="14" style="0"/>
+          <foreground color="-15973013"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="84318" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Schoolbook" size="36" style="0"/>
+          <foreground color="-66049"/>
+          <text value="Register a New Book"/>
+        </properties>
+      </component>
+      <hspacer id="f4dee">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="4009d">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ab12e">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="4777b" class="javax.swing.JTextField" binding="tfQuantity">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7405579"/>
+        </properties>
+      </component>
+      <component id="65c71" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Schoolbook" size="14" style="0"/>
+          <foreground color="-66049"/>
+          <text value="Quantity"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
